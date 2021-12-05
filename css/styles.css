@@ -165,14 +165,20 @@ background-color: var(--acent-color);
 .item-direction:last-child {
     margin-right: 0;
 }
-/* .item-direction-mail::before{
-display: flex;
+.item.item-direction::before{
+display: inline-block;
 width: 16px;
-height: 12;
-content: "";
-background-image: url(../images/envelope.png);
+height: 12px;
+content:"";
+margin-right: 10px;
 background-size: contain;
-} */
+}
+.icon-mail::before{
+    background-image: url(../images/envelope.png);
+}
+.icon-phone::before{
+    background-image: url(../images/smartphone.png);
+}
 /* contacts list */
 .contacts-link{
     font-family: Roboto;
@@ -236,6 +242,7 @@ background-size: contain;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .benefits .text {
@@ -252,6 +259,7 @@ background-size: contain;
 .benefits-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
+    
 
 }
 .item.benefits-item::before{
