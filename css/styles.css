@@ -165,20 +165,32 @@ background-color: var(--acent-color);
 .item-direction:last-child {
     margin-right: 0;
 }
-.item.item-direction::before{
-display: inline-block;
+
+.icon-mail::before{
+    display: inline-block;
 width: 16px;
 height: 12px;
 content:"";
 margin-right: 10px;
 background-size: contain;
-}
-.icon-mail::before{
     background-image: url(../images/envelope.png);
 }
 .icon-phone::before{
+    display: inline-block;
+width: 10px;
+height: 16px;
+content:"";
+margin-right: 10px;
+background-size: contain;
     background-image: url(../images/smartphone.png);
 }
+.icon-mail:hover{
+    color: var(--acent-color)
+}
+.icon-phone:hover{
+    color: var(--acent-color)
+}
+
 /* contacts list */
 .contacts-link{
     font-family: Roboto;
@@ -255,7 +267,9 @@ background-size: contain;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    justify-content: space-between;
 }
+
 .benefits-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
@@ -300,13 +314,14 @@ background-image: url(../images/astronaut.png);
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    justify-content: space-between;
 }
 .item-work {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
-/* ma team */
+/* my team */
 .team .title {
     font-weight: 700;
     font-size: 36px;
@@ -337,6 +352,7 @@ background-image: url(../images/astronaut.png);
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    justify-content: space-between;
 }
 .item-team {
     flex-basis: calc(100% / 4 - 30px);
@@ -448,6 +464,7 @@ background-image: url(../images/astronaut.png);
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    justify-content: space-between;
 }
 .item-projects {
     flex-basis: calc(100% / 3 - 30px);
