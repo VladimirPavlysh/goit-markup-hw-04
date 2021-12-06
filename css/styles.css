@@ -182,11 +182,18 @@ background-color: var(--acent-color);
 
 }
 
-.mail-link :hover,
+/* .mail-link :hover,
 .mail-link :focus{
     fill: var(--acent-color);
+} */
+.mail-link:hover .mail-icon,
+.mail-link:focus .mail-icon{
+fill: var(--acent-color);
 }
-
+.phone-link:hover .phone-icon,
+.phone-link:focus .phone-icon{
+fill: var(--acent-color);
+}
 
 
 
