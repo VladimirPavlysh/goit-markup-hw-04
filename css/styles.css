@@ -382,6 +382,15 @@ background-image: url(../images/astronaut.png);
 .team-social-link:not(:first-child) {
     margin-left: 10px;
 }
+.team-social-link:hover,
+.team-social-link:focus{
+    background-color: var(--acent-color);
+}
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon{
+    fill: var(--primary-white-color);
+
+}
 .team-social-icon{
     fill: #AFB1B8;
 }
