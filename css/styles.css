@@ -148,6 +148,8 @@ background-color: var(--acent-color);
 }
 /* direction list */
 .list-direction .link {
+    display: flex;
+    text-align: center;
     color: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -166,24 +168,28 @@ background-color: var(--acent-color);
     margin-right: 0;
 }
 
-.icon-mail::before{
-    display: inline-block;
-width: 16px;
-height: 12px;
-content:"";
-margin-right: 10px;
-background-size: contain;
-    background-image: url(../images/envelope.png);
+.mail-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    fill: var(--title-text-color);
 }
-.icon-phone::before{
-    display: inline-block;
-width: 10px;
-height: 16px;
-content:"";
-margin-right: 10px;
-background-size: contain;
-    background-image: url(../images/smartphone.png);
+.phone-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    fill: var(--title-text-color);
+
 }
+
+.mail-link :hover,
+.mail-link :focus{
+    fill: var(--acent-color);
+}
+
+
+
+
 
 
 /* contacts list */
