@@ -376,6 +376,7 @@ background-image: url(../images/astronaut.png);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    
 }
 .team-social-list{
     display: flex;
@@ -407,6 +408,61 @@ background-image: url(../images/astronaut.png);
 .team-social-icon{
     fill: #AFB1B8;
 }
+/* Clients */
+
+.clients-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-clients{
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-clients + .item-clients{
+margin-left: 30px;
+}
+.link-clients {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
+}
+.link-clients:hover,
+.link-clients:focus {
+fill: var(--acent-color);
+border-color: var(--acent-color);
+}
+.icon-clients {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+/* .link-clients:hover .icon-clients
+.link-clients:focus .icon-clients{
+fill: var(--acent-color);
+} */
+.icon-clients:focus,
+.icon-clients:hover{
+    fill: var(--acent-color);
+}
+
+
 
 /* footer */
 .footer .link-logo {
@@ -451,6 +507,7 @@ background-image: url(../images/astronaut.png);
 .footer-item:last-child {
     margin-bottom: 0;
 }
+
 /* Portfolio */
 
 .item:not(:first-child) {
