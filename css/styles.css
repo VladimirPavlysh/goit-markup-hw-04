@@ -504,7 +504,7 @@ fill: var(--acent-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-    color: var(--primary-white-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address {
@@ -522,7 +522,7 @@ fill: var(--acent-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--primary-white-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .link-footer:hover,
 .link-footer:focus {
@@ -542,6 +542,7 @@ fill: var(--acent-color);
     color: var(--primary-white-color);
     margin-bottom: 20px;
     display: flex;
+    text-transform: uppercase;
 }
 .join-list {
     display: flex;
