@@ -55,7 +55,7 @@ letter-spacing: 0.03em;
 }
 
 .title {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 .link {
     text-decoration: none;
@@ -330,6 +330,9 @@ background-image: url(../images/astronaut.png);
     margin-top: 30px;
 }
 /* my team */
+.team{
+    background-color: #F5F4FA;
+}
 .team .title {
     font-weight: 700;
     font-size: 36px;
@@ -443,14 +446,14 @@ margin-left: 30px;
     align-items: center;
     color: #afb1b8;
 }
-.item-clients:hover .icon-clients,
+/* .item-clients:hover .icon-clients,
 .item-clients:focus .icon-clients{
-    fill: var(--acent-color);
+
     border-color: var(--acent-color);
-}
+} */
 .link-clients:hover,
 .link-clients:focus {
-fill: var(--acent-color);
+
 border-color: var(--acent-color);
 }
 .icon-clients {
@@ -458,10 +461,11 @@ border-color: var(--acent-color);
     height: 60px;
     fill: #AFB1B8;
 }
-/* .link-clients:hover .icon-clients
+.link-clients:hover .icon-clients,
 .link-clients:focus .icon-clients{
 fill: var(--acent-color);
-} */
+
+}
 /* .icon-clients:focus,
 .icon-clients:hover{
     fill: var(--acent-color);
@@ -500,7 +504,7 @@ fill: var(--acent-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-white-color);
 }
 
 .footer-address {
@@ -509,6 +513,7 @@ fill: var(--acent-color);
 }
 .footer-item {
     margin-bottom: 9px;
+    
 }
 .footer-item:last-child {
     margin-bottom: 0;
@@ -517,8 +522,7 @@ fill: var(--acent-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-white-color);
 }
 .link-footer:hover,
 .link-footer:focus {
@@ -570,7 +574,7 @@ fill: var(--acent-color);
 
 /* Portfolio */
 
-.item:not(:first-child) {
+.item-filters:not(:first-child) {
     margin-left: 8px;
 }
 .projects {
@@ -596,12 +600,11 @@ fill: var(--acent-color);
     color: var(--primary-text-color);
     
 }
-.current.button {
+/* .current.button {
     color: var(--primary-white-color);
-    background-color: var(--acent-color);
     width: 73px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 .title-projects {
     font-weight: 700;
